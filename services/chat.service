@@ -1,13 +1,13 @@
 [Unit]
-Description=Terawork Chat Service Daemon
+Description=Chat Service Daemon
 After=network.target
 After=network-online.target
 
 [Service]
 User=root
 Type=forking
-ExecStart=/usr/local/bin/chat-terawork.sh
-ExecStop=/usr/local/bin/kill-chat-terawork.sh
+ExecStart=/usr/local/bin/chat.sh
+ExecStop=/usr/local/bin/kill-chat.sh
 TimeoutSec=30
 Restart=on-failure
 RestartSec=30
