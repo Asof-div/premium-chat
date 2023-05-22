@@ -22,9 +22,9 @@ const {Violation} = require('./utils/Violation');
 
 const httpServer  = http.createServer();
 const httpsServer = https.createServer({
-    "key" : fs.readFileSync(path.resolve(__dirname, "../server/certs/star_terawork_com.key")),
-    "cert": fs.readFileSync(path.resolve(__dirname, "../server/certs/STAR_terawork_com.crt")),
-    "ca"  : fs.readFileSync(path.resolve(__dirname, "../server/certs/STAR_terawork_com.ca-bundle"))
+    "key" : fs.readFileSync(path.resolve(__dirname, "../server/certs/star_domain_com.key")),
+    "cert": fs.readFileSync(path.resolve(__dirname, "../server/certs/STAR_domain_com.crt")),
+    "ca"  : fs.readFileSync(path.resolve(__dirname, "../server/certs/STAR_domain_com.ca-bundle"))
 });
 
 
