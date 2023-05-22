@@ -1,21 +1,21 @@
 {
-  "name": "terawork-premium-webchat",
+  "name": "premium-webchat",
   "version": "1.0.0",
-  "description": "Terawork chat application ",
+  "description": "chat application ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/terawork-com/terawork-premium-webchat.git"
+    "url": "git+https://github.com/asof-div/premium-webchat.git"
   },
   "author": "Abiodun Adeyinka",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/terawork-com/terawork-premium-webchat/issues"
+    "url": "https://github.com/asof-div/premium-webchat/issues"
   },
-  "homepage": "https://github.com/terawork-com/terawork-premium-webchat#readme",
+  "homepage": "https://github.com/asof-div/premium-webchat#readme",
   "dependencies": {
     "axios": "^0.20.0",
     "eiows": "^3.4.0",
